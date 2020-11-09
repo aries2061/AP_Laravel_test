@@ -65,6 +65,8 @@ select * from student;
 
 select name,address from student;
 
+select COUNT(*) from student;
+
 select DISTINCT(address) from student;
 
 select * from student where name LIKE '%d%';
@@ -90,3 +92,8 @@ Result =>
 |  1 | Dave    |        4 | 0987654321   | Yangon       |  4 | AME  |
 |  3 | Charlie |        4 | 091324343532 | Pyin Oo Lwin |  4 | AME  |
 +----+---------+----------+--------------+--------------+----+------+
+
+
+//DROPPINNG TABLE
+
+drop table reccord;
